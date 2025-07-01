@@ -17,3 +17,22 @@ function calculateTriangleArea() {
     triangleAreaSpan.innerText = area;
 
 }   
+
+function calculateRectangleArea() {
+    const RectangleWidthInput = document.getElementById('RectangleWidth');
+    const RectangleWidthText = RectangleWidthInput.value; 
+    const width = parseFloat(RectangleWidthText);
+    console.log(width);
+
+    const RectangleHeightInput = document.getElementById('RectangleHeight');
+    const RectangleHeightText = RectangleHeightInput.value; 
+    const height = parseFloat(RectangleHeightText);
+    console.log(height);
+    
+    const area = width * height;
+    console.log(area);
+
+    const RectangleAreaSpan = document.getElementById('Rectangle-area');
+    RectangleAreaSpan.innerText = area;
+
+} 
