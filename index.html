@@ -63,39 +63,31 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Triangle Card -->
+                  <!-- Parallelogram Card -->
                 <div class="card bg-base-100 w-96 shadow-sm">
                     <figure class="px-10 pt-10">
                       <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        src="images/parallelogram.png"
                         alt="Shoes"
                         class="rounded-xl" />
                     </figure>
                     <div class="card-body items-center text-center">
-                      <h2 class="card-title">Card Title</h2>
-                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                      <h2 class="card-title">Parallelogram</h2>
+                      <p class="text-center text-3xl">Area (A) = b X h</p>
+                      <div class="">
+                        <input id="ParallelogramBase" class="w-24 text-2xl p-2 roounded-sm" type="text" placeholder="b">
+                      <span class="mr-4 ml-2">cm</span>
+                      <input id="ParallelogramHeight" class="w-24 text-2xl p-2 roounded-sm" type="text" placeholder="h">
+                      <span>cm</span>
+                      </div>
+                      <div>
+                        <p class="text-2xl">Area: <span id="Rectangle-area"></span> <span>cm</span><sup>2</sup></p>
+                      </div>
                       <div class="card-actions">
-                        <button  class="btn btn-primary">Buy Now</button>
+                        <button onclick="calculateRectangleArea()" class="btn btn-primary w-f">Calculate</button>
                       </div>
                     </div>
                   </div>
-                  <!-- Triangle Card -->
-                <div class="card bg-base-100 w-96 shadow-sm">
-                    <figure class="px-10 pt-10">
-                      <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        alt="Shoes"
-                        class="rounded-xl" />
-                    </figure>
-                    <div class="card-body items-center text-center">
-                      <h2 class="card-title">Card Title</h2>
-                      <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                      <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
-                    </div>
-                  </div>
-            </div>
             <!-- Area calculation container -->
              <div class="w-96 border-2 border-gray-700 rounded-md">
            <h3 class="text-3xl text-center">Area Calculation</h3>

@@ -36,3 +36,7 @@ function calculateRectangleArea() {
     RectangleAreaSpan.innerText = area;
 
 } 
+
+function getInputValue(inputFieldId) {
+    const inputField = document.getElementById(inputFieldId);
+}
